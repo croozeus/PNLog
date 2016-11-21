@@ -1,0 +1,6 @@
+framework module Pods_PNLog_Tests {
+  umbrella header "Pods-PNLog_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

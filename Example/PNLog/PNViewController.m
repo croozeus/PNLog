@@ -7,6 +7,7 @@
 //
 
 #import "PNViewController.h"
+#import <PNLog/PNLog.h>
 
 @interface PNViewController ()
 
@@ -18,6 +19,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    [PNLog log:@"Test"];
 }
 
 - (void)didReceiveMemoryWarning

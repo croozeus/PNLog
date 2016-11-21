@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'PNLog'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of PNLog.'
+  s.summary          = 'This pod allows to print Logs only in Debug environment. In a release / production environment - the logs would not be printed.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,11 +17,9 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+s.description      = 'Many a times developers forget to comment or disable the logs in the release / production environment. This is a simple pod allows to print Logs only in Debug environment. In a release / production environment - the logs would not be printed. '
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/PNLog'
+  s.homepage         = 'https://github.com/croozeus/PNLog'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Pankaj Nathani' => 'Pankaj Nathani' }
