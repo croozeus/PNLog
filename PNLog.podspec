@@ -23,7 +23,7 @@ s.description      = 'Many a times developers forget to comment or disable the l
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Pankaj Nathani' => 'Pankaj Nathani' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/PNLog.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/croozeus/PNLog.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
